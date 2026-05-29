@@ -1,3 +1,8 @@
+---
+description: Sparrow MCP self_correction_sast 결과 처리 시 diff 기반 인라인 패치 규칙
+applyTo: "**/*"
+---
+
 # Rules for 'sparrow' MCP Security Analysis Tool (Diff-Based Version)
 
 The following rules apply CRITICALLY and EXCLUSIVELY when processing results from the `sparrow` MCP server (`self_correction_sast` tool).

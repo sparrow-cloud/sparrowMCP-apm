@@ -13,7 +13,7 @@ targets:
   - windsurf
 
 instructions:
-  - file: "./.apm/instructions/cursor.md"
+  - file: "./.apm/instructions/cursor.instructions.md"
     targets:
       - client: "cursor"
 
