@@ -1,0 +1,33 @@
+name: sparrowMCP-apm
+version: 1.0.0
+description: APM project for sparrowMCP-apm
+author: Sparrow
+
+targets:
+  - claude
+  - codex
+  - copilot
+  - cursor
+  - gemini
+  - opencode
+  - windsurf
+
+instructions:
+  - file: "./instructions/cursor.md"
+    targets:
+      - client: "cursor"
+
+dependencies:
+  apm: []
+  mcp:
+    sparrow-mcp:
+      command: "node"
+      args: ["your-mcp-server-path"]
+      env:
+        SPARROW_API_KEY: "SPARROW_API_KEY"
+        SPARROW_API_URL: "https://ondemand.sparrowcloud.ai"
+
+includes:
+  - "instructions/**/*"
+  - "dist/**/*" # 💡 빌드된 JS 파일들이 포함되도록 명시해 주는 것이 안전합니다.
+scripts: {}
