@@ -1,5 +1,4 @@
 ---
-id: SparrowMCP
 description: Sparrow MCP self_correction_sast 결과 처리 시 diff 기반 인라인 패치 규칙
 applyTo: "**/*"
 ---

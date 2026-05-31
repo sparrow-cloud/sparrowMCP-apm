@@ -16,6 +16,7 @@ instructions:
   - file: "./.apm/instructions/cursor.instructions.md"
     targets:
       - client: "cursor"
+        output: "./.cursor/rules/test.mdc"
 
 dependencies:
   apm: []
