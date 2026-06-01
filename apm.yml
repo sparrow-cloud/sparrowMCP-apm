@@ -20,7 +20,7 @@ instructions:
 dependencies:
   apm: []
   mcp:
-    - io.github.sparrowcloud/sparrowMCP-apm
+    - io.github.sparrow-cloud/sparrowMCP-apm
 
     - name: filesystem
       registry: false
