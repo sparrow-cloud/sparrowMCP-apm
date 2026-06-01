@@ -20,9 +20,7 @@ instructions:
 dependencies:
   apm: []
   mcp:
-    - io.github.sparrow-cloud/sparrowMCP-apm
-
-    - name: filesystem
+    - name: sparrow-mcp
       registry: false
       transport: stdio
       command: "node"
@@ -33,5 +31,5 @@ dependencies:
 
 includes:
   - "instructions/**/*"
-  - "dist/**/*" # 💡 빌드된 JS 파일들이 포함되도록 명시해 주는 것이 안전합니다.
+
 scripts: {}
