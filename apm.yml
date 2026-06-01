@@ -20,7 +20,9 @@ instructions:
 dependencies:
   apm: []
   mcp:
-    sparrow-mcp:
+    - io.github.sparrowcloud/sparrowMCP-apm
+
+    - name: filesystem
       registry: false
       transport: stdio
       command: "node"
