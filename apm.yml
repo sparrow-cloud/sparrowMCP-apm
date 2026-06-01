@@ -20,6 +20,8 @@ instructions:
 dependencies:
   apm: []
   mcp:
+    - io.github.github/github-mcp-server
+
     - name: sparrow-mcp
       registry: false
       transport: stdio
