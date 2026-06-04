@@ -23,11 +23,13 @@ dependencies:
     - name: sparrow-mcp
       registry: false
       transport: stdio
-      command: "node"
-      args: ["your-mcp-server-path"]
+      command: "npx"
+      args:
+        - -y
+        - @sparrowai/sparrow-mcp
       env:
-        SPARROW_API_KEY: "SPARROW_API_KEY"
-        SPARROW_API_URL: "https://ondemand.sparrowcloud.ai"
+        SPARROW_API_KEY: SPARROW_API_KEY
+        SPARROW_API_URL: https://ondemand.sparrowcloud.ai
 
 includes:
   - "instructions/**/*"
