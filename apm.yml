@@ -9,13 +9,17 @@ targets:
   - copilot
   - cursor
   - gemini
+  - antigravity
   - opencode
   - windsurf
 
-instructions:
-  - file: "./.apm/instructions/cursor.instructions.md"
-    targets:
-      - client: "cursor"
+# instructions:
+#   - file: "./.apm/instructions/cursor.instructions.md"
+#     targets:
+#       - client: "cursor"
+
+# skills:
+#   - file: "./.apm/skills/**/*"
 
 dependencies:
   apm: []
@@ -31,7 +35,6 @@ dependencies:
         SPARROW_API_KEY: SPARROW_API_KEY
         SPARROW_API_URL: https://ondemand.sparrowcloud.ai
 
-includes:
-  - "instructions/**/*"
+includes: auto
 
 scripts: {}
