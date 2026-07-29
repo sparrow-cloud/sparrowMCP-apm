@@ -13,14 +13,6 @@ targets:
   - opencode
   - windsurf
 
-# instructions:
-#   - file: "./.apm/instructions/cursor.instructions.md"
-#     targets:
-#       - client: "cursor"
-
-# skills:
-#   - file: "./.apm/skills/**/*"
-
 dependencies:
   apm: []
   mcp:
@@ -30,7 +22,7 @@ dependencies:
       command: "npx"
       args:
         - -y
-        - "@sparrowai/sparrow-mcp@0.0.1"
+        - "@sparrowai/sparrow-mcp@1.2.0.beta.5"
       env:
         SPARROW_API_KEY: SPARROW_API_KEY
         SPARROW_API_URL: https://ondemand.sparrowcloud.ai
